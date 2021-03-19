@@ -1,9 +1,9 @@
 import { Drizzle, generateStore } from '@drizzle/store';
-import { Migrations } from '@ethapp/contracts';
+// import { ... } from '@ethapp/contracts';
 
 const options = {
   contracts: [
-    Migrations,
+    // Imported contracts
   ],
   web3: {
     fallback: {
